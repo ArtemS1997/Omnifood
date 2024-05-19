@@ -54,7 +54,7 @@ Default: 9px
 
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; /* clip */
 }
 
 html {
@@ -64,6 +64,9 @@ html {
   font-size: 62.5%;
 
   /* overflow-x: hidden; */
+
+  /* Doesn't work on Safari */
+  /* scroll-behavior: smooth; */
 }
 
 body {
